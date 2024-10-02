@@ -1,0 +1,21 @@
+.features-card{
+   width: 250px;
+   height: 250px;
+   background: linear-gradient(149deg, #192247 0%, #210e17 99.08%);
+   margin: 1rem;
+   padding: 2rem;
+   border-radius: 8px;
+   text-align: center;
+   transition: transform 0.3s ease-in-out;
+
+}
+.features-card:hover{
+    transform: scale(1.1);
+}
+.feature-heading{
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+.feature-desc{
+    font-size: 0.8rem;
+}

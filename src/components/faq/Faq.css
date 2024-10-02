@@ -1,0 +1,37 @@
+
+.faq-all{
+    width: 800px;
+    height: auto;
+    margin: 1rem;
+}
+
+.faqcard{
+   background-color: #2d2d2d;
+   margin: 1rem;
+   padding: 1rem;
+}
+.faq-icon{
+    font-size: 30px;
+}
+.faq-question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+}
+
+
+@media (max-width:800px){
+    .faq-all{
+        width: 500px;
+    }
+}
+
+
+@media (max-width:500px){
+    .faq-all{
+        width: 280px;
+    }
+}
