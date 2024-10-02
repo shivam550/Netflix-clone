@@ -2,7 +2,7 @@
 
 
 
-import "./TitleCard.css"
+import "./Titlecard.css"
 
 // import card_data from "../../assets/cards/Cards_data";
 import { useRef, useState } from "react";
